@@ -24,6 +24,3 @@ window_rows = 15 # Número de filas de la ventana
 window_cols = 15  # Número de columnas de la ventana
 cv2.imshow('imagen ecualizada', localeq(img, window_rows, window_cols))
 cv2.waitKey(0)
-import cv2
-import numpy as np
-import matplotlib.pyplot as plt
